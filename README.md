@@ -40,7 +40,8 @@ Adicionar link do vídeo no Youtube
 | 1x | Plug AC 10A            | R$5,80 |
 | 1x | Fio 0,5mm              | R$4,50 |
 | **Total** |                 | **R$77,36** |
-Componentes comprados na loja [Ca And Ma](https://www.caandma.com.br/) em São Carlos/SP.
+
+ - Componentes comprados na loja [Ca And Ma](https://www.caandma.com.br/) em São Carlos/SP.
 
 ## Funcionamento dos Componentes
  - **Fusível:** dispositivo de segurança que interrompe a passagem de corrente elétrica num circuito quando esta ultrapassa o limite permitido, de modo a proteger o circuito quando há picos de corrente.
@@ -69,6 +70,10 @@ Componentes comprados na loja [Ca And Ma](https://www.caandma.com.br/) em São C
  - Acesse o software [Eagle](https://www.autodesk.com/products/eagle/overview)
  - No menu `File > Open > Schematic...`, acesse o arquivo `./Arquivos/pcbEagle.brd` do repositório
  - Adicionar Imagem
+
+## Protótipo
+ - Assista ao funcionamento do protótipo pelo [vídeo](https://youtu.be/MAERgxqwMdY?si=GL7MvnJlF9lUfxt0)
+<img src="./Imagens/protótipo.jpg">
 
 ## Licença
 Esse projeto está licenciado sobre a GNU General Public License V3.0, publicada pela Free Software Foundation.

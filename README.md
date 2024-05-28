@@ -21,21 +21,26 @@ Adicionar link do vídeo no Youtube
 ## Lista de Componentes
 | Quantidade | Componentes        | Valor (R$) |
 |----|---------------|------------|
-| 1x | Fusível              | [R$0,32](https://www.baudaeletronica.com.br/produto/fusivel-de-vidro-5x20-01a-250v.html) |
-| 1x | Varistor             | [R$2,29](https://www.baudaeletronica.com.br/produto/varistor-s20k241-150vac.html) |
-| 1x | Transformador 24V 1A | [R$53,46](https://www.baudaeletronica.com.br/produto/transformador-trafo-24v-1a-110220vac.html) |
-| 5x | Diodo 1N4001         | [R$0,14 x 5 = R$0,70](https://www.baudaeletronica.com.br/produto/diodo-1n4001.html) |
-| 1x | Capacitor 470µF 35V  | [R$0,77](https://www.baudaeletronica.com.br/produto/capacitor-eletrolitico-470uf-35v-105c.html) |
-| 1x | Led Vermelho 5mm     | [R$0,24](https://www.baudaeletronica.com.br/produto/led-difuso-5mm-vermelho) |
-| 1x | Resistor 2.2k        | [R$0,38](https://www.baudaeletronica.com.br/produto/resistor-2k2-5-2w.html) |
-| 2x | Resistor 1k          | [R$0,05](https://www.baudaeletronica.com.br/produto/resistor-1k-5-14w.html) |
-| 1x | Resistor 120         | [R$0,14](https://www.baudaeletronica.com.br/produto/resistor-120r-5-12w.html) |
-| 1x | Resistor 82          | [R$0,14](https://www.baudaeletronica.com.br/produto/resistor-82r-5-12w.html) |
-| 1x | Diodo Zener 13V 0.5W | [R$0,08](https://www.baudaeletronica.com.br/produto/diodo-zener-bzx55c-13v-05w.html) |
-| 1x | Potenciômetro 5k     | [R$1,99](https://www.baudaeletronica.com.br/produto/potenciometro-linear-de-5k-5000.html) |
-| 1x | Transistor NPN BC548 | [R$0,27](https://www.baudaeletronica.com.br/produto/transistor-npn-bc548.html) |
-| 1x | Chave                | [R$1,35](https://www.baudaeletronica.com.br/produto/chave-hh-ss12f46-3-terminais.html) |
-| **Total** |               | **R$62,18** |
+| 1x | Fusível                | R$1,00 |
+| 1x | Varistor               | R$2,40 |
+| 1x | Transformador 24V 0.5A | R$41,00 |
+| 5x | Diodo 1N4001           | R$0,19 x 4 = R$0,76 |
+| 1x | Capacitor 470µF 35V    | R$2,65 |
+| 1x | Led Vermelho 5mm       | R$0,45 |
+| 1x | Resistor 2.2k          | R$0,07 |
+| 1x | Resistor 1k            | R$0,07 |
+| 1x | Resistor 1k 1W         | R$0,39 |
+| 1x | Resistor 120 5W        | R$1,70 |
+| 1x | Resistor 82            | R$0,72 |
+| 1x | Diodo Zener 13V 0.5W   | R$0,35 |
+| 1x | Potenciômetro 5k       | R$6,70 |
+| 1x | Transistor TIP 31 C    | R$3,70 |
+| 1x | Chave Tecla            | R$2,90 |
+| 2x | Borne 2 vias           | R$2,20 |
+| 1x | Plug AC 10A            | R$5,80 |
+| 1x | Fio 0,5mm              | R$4,50 |
+| **Total** |                 | **R$77,36** |
+Componentes comprados na loja [Ca And Ma](https://www.caandma.com.br/) em São Carlos/SP.
 
 ## Funcionamento dos Componentes
  - **Fusível:** dispositivo de segurança que interrompe a passagem de corrente elétrica num circuito quando esta ultrapassa o limite permitido, de modo a proteger o circuito quando há picos de corrente.
@@ -51,18 +56,18 @@ Adicionar link do vídeo no Youtube
  - **Chave:** uma chave elétrica pode estar num dos dois estados: fechado ou aberto. Quando a chave está fechada, a corrente elétrica passa pelo circuito; quando está aberta, a corrente elétrica não passa. Assim, podemos ativar ou desativar o funcionamento da fonte.
 
 ## Simulação do Circuito - Falstad
- - Acesse o simulador [Falstad](https://falstad.com/circuit/circuitjs.html)
- - No menu `File > Import from Text`, acesse o arquivo `./circuitoFonteFalstad.txt` do repositório
- - Adicionar Imagem
+ - Acesse a simulação no [Falstad](https://tinyurl.com/29guzw5a)
+ - Ou, no menu `File > Import from Text`, acesse o arquivo `./Arquivos/circuitoFalstad.txt` do repositório
+<img src="./Imagens/circuitoFalstad.png">
 
 ## Esquemático do Circuito - Eagle
  - Acesse o software [Eagle](https://www.autodesk.com/products/eagle/overview)
- - No menu `File > Open > Schematic...`, acesse o arquivo `./esquematicoEagle.sch` do repositório
+ - No menu `File > Open > Schematic...`, acesse o arquivo `./Arquivos/esquematicoEagle.sch` do repositório
  - Adicionar Imagem
 
 ## PCB do Circuito - Eagle
  - Acesse o software [Eagle](https://www.autodesk.com/products/eagle/overview)
- - No menu `File > Open > Schematic...`, acesse o arquivo `./pcbEagle.brd` do repositório
+ - No menu `File > Open > Schematic...`, acesse o arquivo `./Arquivos/pcbEagle.brd` do repositório
  - Adicionar Imagem
 
 ## Licença

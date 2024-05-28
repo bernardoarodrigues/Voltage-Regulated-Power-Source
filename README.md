@@ -23,15 +23,16 @@ Adicionar link do vídeo no Youtube
 |----|---------------|------------|
 | 1x | Fusível                | R$1,00 |
 | 1x | Varistor               | R$2,40 |
-| 1x | Transformador 24V 0.5A | R$41,00 |
+| 1x | Transformador 12V 0.5A | R$41,00 |
 | 5x | Diodo 1N4001           | R$0,19 x 4 = R$0,76 |
-| 1x | Capacitor 470µF 35V    | R$2,65 |
+| 1x | Capacitor 1mF 35V      | R$2,00 |
 | 1x | Led Vermelho 5mm       | R$0,45 |
 | 1x | Resistor 2.2k          | R$0,07 |
-| 1x | Resistor 1k            | R$0,07 |
-| 1x | Resistor 1k 1W         | R$0,39 |
+| 1x | Resistor 8k2           | R$0,07 |
 | 1x | Resistor 120 5W        | R$1,70 |
 | 1x | Resistor 82            | R$0,72 |
+| 1x | Trimpot 200            | R$2,81 |
+| 1x | Trimpot 5              | R$3,00 |
 | 1x | Diodo Zener 13V 0.5W   | R$0,35 |
 | 1x | Potenciômetro 5k       | R$6,70 |
 | 1x | Transistor TIP 31 C    | R$3,70 |
@@ -57,8 +58,8 @@ Adicionar link do vídeo no Youtube
  - **Chave:** uma chave elétrica pode estar num dos dois estados: fechado ou aberto. Quando a chave está fechada, a corrente elétrica passa pelo circuito; quando está aberta, a corrente elétrica não passa. Assim, podemos ativar ou desativar o funcionamento da fonte.
 
 ## Simulação do Circuito - Falstad
- - Acesse a simulação no [Falstad](https://tinyurl.com/29guzw5a)
- - Ou, no menu `File > Import from Text`, acesse o arquivo `./Arquivos/circuitoFalstad.txt` do repositório
+ - Acesse a simulação pelo [link](https://tinyurl.com/29guzw5a)
+ - Ou, no menu `File > Import from Text` do [Falstad](https://falstad.com/circuit/circuitjs.html), acesse o arquivo `./Arquivos/circuitoFalstad.txt`
 <img src="./Imagens/circuitoFalstad.png">
 
 ## Esquemático do Circuito - Eagle

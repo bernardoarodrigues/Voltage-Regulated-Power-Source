@@ -15,8 +15,13 @@ Fonte retificadora de tensão que transforma corrente alternada com tensão efic
  - **Curso:** Bacharelado em Ciência da Computação
  - **Turma:** BCC-A / 2024 
 
-## Vídeo do projeto
-Adicionar link do vídeo no Youtube
+## Projeto
+ - Assista ao funcionamento do projeto pelo vídeo
+ - Adicionar imagem
+
+## Protótipo
+ - Assista ao funcionamento do protótipo pelo [vídeo](https://youtu.be/MAERgxqwMdY?si=GL7MvnJlF9lUfxt0)
+<img src="./Imagens/protótipo.jpg">
 
 ## Lista de Componentes
 | Quantidade | Componentes        | Valor (R$) |
@@ -65,16 +70,15 @@ Adicionar link do vídeo no Youtube
 ## Esquemático do Circuito - Eagle
  - Acesse o software [Eagle](https://www.autodesk.com/products/eagle/overview)
  - No menu `File > Open > Schematic...`, acesse o arquivo `./Arquivos/esquematicoEagle.sch` do repositório
- - Adicionar Imagem
+<div style="width: 100%; text-align: center;" >
+    <img height=300 src="./Imagens/pcbCima.png">
+    <img height=300 src="./Imagens/pcbBaixo.png">
+</div>
 
 ## PCB do Circuito - Eagle
  - Acesse o software [Eagle](https://www.autodesk.com/products/eagle/overview)
  - No menu `File > Open > Schematic...`, acesse o arquivo `./Arquivos/pcbEagle.brd` do repositório
- - Adicionar Imagem
-
-## Protótipo
- - Assista ao funcionamento do protótipo pelo [vídeo](https://youtu.be/MAERgxqwMdY?si=GL7MvnJlF9lUfxt0)
-<img src="./Imagens/protótipo.jpg">
+<img src="./Imagens/esquematicoEagle.png">
 
 ## Licença
 Esse projeto está licenciado sobre a GNU General Public License V3.0, publicada pela Free Software Foundation.

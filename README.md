@@ -29,23 +29,23 @@ Fonte retificadora de tensão que transforma corrente alternada com tensão efic
 | 1x | Fusível                | R$1,00 |
 | 1x | Varistor               | R$2,40 |
 | 1x | Transformador 12V 0.5A | R$41,00 |
-| 5x | Diodo 1N4001           | R$0,19 x 4 = R$0,76 |
+| 4x | Diodo 1N4001           | R$0,19 x 4 = R$0,76 |
 | 1x | Capacitor 1mF 35V      | R$2,00 |
 | 1x | Led Vermelho 5mm       | R$0,45 |
 | 1x | Resistor 2.2k          | R$0,07 |
-| 1x | Resistor 8k2           | R$0,07 |
-| 1x | Resistor 120 5W        | R$1,70 |
+| 1x | Resistor 8.2k          | R$0,07 |
 | 1x | Resistor 82            | R$0,72 |
 | 1x | Trimpot 200            | R$2,81 |
-| 1x | Trimpot 5              | R$3,00 |
 | 1x | Diodo Zener 13V 0.5W   | R$0,35 |
 | 1x | Potenciômetro 5k       | R$6,70 |
 | 1x | Transistor TIP 31 C    | R$3,70 |
 | 1x | Chave Tecla            | R$2,90 |
 | 2x | Borne 2 vias           | R$2,20 |
+| 1x | Conector USB-A         | R$3,30 |
+| 1x | Placa de fenolite      | R$7,80 |
 | 1x | Plug AC 10A            | R$5,80 |
 | 1x | Fio 0,5mm              | R$4,50 |
-| **Total** |                 | **R$82,13** |
+| **Total** |                 | **R$88,53** |
 
  - Componentes comprados na loja [Ca And Ma](https://www.caandma.com.br/) em São Carlos/SP.
 

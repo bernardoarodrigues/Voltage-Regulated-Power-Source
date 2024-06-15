@@ -16,8 +16,8 @@ Fonte retificadora de tensão que transforma corrente alternada com tensão efic
  - **Turma:** BCC-A / 2024 
 
 ## Projeto
- - Assista ao funcionamento do projeto pelo vídeo
- - Adicionar imagem
+ - Assista ao funcionamento do projeto pelo [vídeo](https://youtu.be/LmAK9lCr3QM)
+<img src="./Imagens/projeto.jpg">
 
 ## Protótipo
  - Assista ao funcionamento do protótipo pelo [vídeo](https://youtu.be/MAERgxqwMdY?si=GL7MvnJlF9lUfxt0)
@@ -45,7 +45,7 @@ Fonte retificadora de tensão que transforma corrente alternada com tensão efic
 | 2x | Borne 2 vias           | R$2,20 |
 | 1x | Plug AC 10A            | R$5,80 |
 | 1x | Fio 0,5mm              | R$4,50 |
-| **Total** |                 | **R$77,36** |
+| **Total** |                 | **R$82,13** |
 
  - Componentes comprados na loja [Ca And Ma](https://www.caandma.com.br/) em São Carlos/SP.
 
@@ -70,15 +70,15 @@ Fonte retificadora de tensão que transforma corrente alternada com tensão efic
 ## Esquemático do Circuito - Eagle
  - Acesse o software [Eagle](https://www.autodesk.com/products/eagle/overview)
  - No menu `File > Open > Schematic...`, acesse o arquivo `./Arquivos/esquematicoEagle.sch` do repositório
-<div style="width: 100%; text-align: center;" >
+<img src="./Imagens/esquematicoEagle.png">
+
+## PCB - Eagle
+ - Acesse o software [Eagle](https://www.autodesk.com/products/eagle/overview)
+ - No menu `File > Open > Schematic...`, acesse o arquivo `./Arquivos/pcbEagle.brd` do repositório
+<div style="width: 100%; text-align: center;" align="center">
     <img height=300 src="./Imagens/pcbCima.png">
     <img height=300 src="./Imagens/pcbBaixo.png">
 </div>
-
-## PCB do Circuito - Eagle
- - Acesse o software [Eagle](https://www.autodesk.com/products/eagle/overview)
- - No menu `File > Open > Schematic...`, acesse o arquivo `./Arquivos/pcbEagle.brd` do repositório
-<img src="./Imagens/esquematicoEagle.png">
 
 ## Licença
 Esse projeto está licenciado sobre a GNU General Public License V3.0, publicada pela Free Software Foundation.

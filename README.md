@@ -19,6 +19,9 @@ Fonte retificadora de tensão que transforma corrente alternada com tensão efic
  - Assista ao funcionamento do projeto pelo [vídeo](https://youtu.be/LmAK9lCr3QM)
 <img src="./Imagens/projeto.jpg">
 
+ - Assista à explicação do projeto pelo [vídeo](https://youtu.be/G3qo6u1XbXE?si=uAgzXHjsn5U5M6hq)
+<img src="./Imagens/explicação.png">
+
 ## Protótipo
  - Assista ao funcionamento do protótipo pelo [vídeo](https://youtu.be/MAERgxqwMdY?si=GL7MvnJlF9lUfxt0)
 <img src="./Imagens/protótipo.jpg">

@@ -66,7 +66,7 @@ Fonte retificadora de tensão que transforma corrente alternada com tensão efic
  - **Chave:** uma chave elétrica pode estar num dos dois estados: fechado ou aberto. Quando a chave está fechada, a corrente elétrica passa pelo circuito; quando está aberta, a corrente elétrica não passa. Assim, podemos ativar ou desativar o funcionamento da fonte.
 
 ## Simulação do Circuito - Falstad
- - Acesse a simulação pelo [link](https://tinyurl.com/2pu7red4)
+ - Acesse a simulação pelo [link](https://tinyurl.com/2fm74n5c)
  - Ou, no menu `File > Import from Text` do [Falstad](https://falstad.com/circuit/circuitjs.html), acesse o arquivo `./Arquivos/circuitoFalstad.txt`
 <img src="./Imagens/circuitoFalstad.png">
 

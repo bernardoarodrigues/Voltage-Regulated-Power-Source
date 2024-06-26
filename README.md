@@ -19,7 +19,7 @@ Fonte retificadora de tensão que transforma corrente alternada com tensão efic
  - Assista ao funcionamento do projeto pelo [vídeo](https://youtu.be/LmAK9lCr3QM)
 <img src="./Imagens/projeto.jpg">
 
- - Assista à explicação do projeto pelo [vídeo](https://youtu.be/G3qo6u1XbXE?si=uAgzXHjsn5U5M6hq)
+ - Assista à explicação do projeto pelo [vídeo](https://youtu.be/v0-GvNXRQ9Q?si=ZIwsNRWMdKinU6Kj)
 <img src="./Imagens/explicação.png">
 
 ## Protótipo
@@ -37,8 +37,8 @@ Fonte retificadora de tensão que transforma corrente alternada com tensão efic
 | 1x | Led Vermelho 5mm       | R$0,45 |
 | 1x | Resistor 2.2k          | R$0,07 |
 | 1x | Resistor 8.2k          | R$0,07 |
-| 1x | Resistor 82            | R$0,72 |
-| 1x | Trimpot 200            | R$2,81 |
+| 1x | Resistor 470           | R$0,72 |
+| 1x | Trimpot 500            | R$2,81 |
 | 1x | Diodo Zener 13V 0.5W   | R$0,35 |
 | 1x | Potenciômetro 5k       | R$6,70 |
 | 1x | Transistor TIP 31 C    | R$3,70 |

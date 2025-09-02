@@ -1,87 +1,87 @@
-# Projeto Fonte Reguladora De Tensão
+# Voltage Regulator Power Supply Project
 
-## Descrição
-Fonte retificadora de tensão que transforma corrente alternada com tensão eficaz de 127V em corrente contínua com tensão ajustável entre 3V e 12V.
+## Description
+Rectifier power supply that converts alternating current with an effective voltage of 127V into direct current with an adjustable voltage between 3V and 12V.
 
-## Grupo
+## Group
  - [Bernardo Alexandre Alves Rodrigues](mailto:bernardorodrigues@usp.br)
  - [Gabriel Phelippe Prado](mailto:gabriel.phelippe@usp.br)
  - [Gabriel Campanelli Iamato](mailto:gabriel.c.iamato@usp.br)
  - [Henrique Vieira Lima](mailto:vieira.henrique@usp.br)
 
-## Informações
- - **Disciplina:** Eletrônica para Computação
+## Information
+ - **Course:** Electronics for Computing
  - **Professor:** Eduardo do Valle Simões
- - **Curso:** Bacharelado em Ciência da Computação
- - **Turma:** BCC-A / 2024 
+ - **Degree:** Bachelor’s in Computer Science
+ - **Class:** BCC-A / 2024 
 
-## Projeto
- - Assista ao funcionamento do projeto pelo [vídeo](https://youtu.be/LmAK9lCr3QM)
+## Project
+ - Watch the project in action in this [video](https://youtu.be/LmAK9lCr3QM)
 <img src="./Imagens/projeto.jpg">
 
- - Assista à explicação do projeto pelo [vídeo](https://youtu.be/v0-GvNXRQ9Q?si=ZIwsNRWMdKinU6Kj)
+ - Watch the project explanation in this [video](https://youtu.be/v0-GvNXRQ9Q?si=ZIwsNRWMdKinU6Kj)
 <img src="./Imagens/explicação.png">
 
-## Protótipo
- - Assista ao funcionamento do protótipo pelo [vídeo](https://youtu.be/MAERgxqwMdY?si=GL7MvnJlF9lUfxt0)
+## Prototype
+ - Watch the project explanation in this [vídeo](https://youtu.be/MAERgxqwMdY?si=GL7MvnJlF9lUfxt0)
 <img src="./Imagens/protótipo.jpg">
 
-## Lista de Componentes
-| Quantidade | Componentes        | Valor (R$) |
+## Component List
+| Quantity | Components        | Price (R$) |
 |----|---------------|------------|
-| 1x | Fusível                | R$1,00 |
+| 1x | Fuse                   | R$1,00 |
 | 1x | Varistor               | R$2,40 |
-| 1x | Transformador 12V 0.5A | R$41,00 |
-| 4x | Diodo 1N4001           | R$0,19 x 4 = R$0,76 |
+| 1x | Transformer 12V 0.5A   | R$41,00 |
+| 4x | Diode 1N4001           | R$0,19 x 4 = R$0,76 |
 | 1x | Capacitor 1mF 35V      | R$2,00 |
-| 1x | Led Vermelho 5mm       | R$0,45 |
+| 1x | Red LED 5mm            | R$0,45 |
 | 1x | Resistor 2.2k          | R$0,07 |
 | 1x | Resistor 8.2k          | R$0,07 |
 | 1x | Resistor 470           | R$0,72 |
 | 1x | Trimpot 500            | R$2,81 |
-| 1x | Diodo Zener 13V 0.5W   | R$0,35 |
-| 1x | Potenciômetro 5k       | R$6,70 |
+| 1x | Zener Diode 13V 0.5W   | R$0,35 |
+| 1x | Potentiometer 5k       | R$6,70 |
 | 1x | Transistor TIP 31 C    | R$3,70 |
-| 1x | Chave Tecla            | R$2,90 |
-| 2x | Borne 2 vias           | R$2,20 |
-| 1x | Conector USB-A         | R$3,30 |
-| 1x | Placa de fenolite      | R$7,80 |
-| 1x | Plug AC 10A            | R$5,80 |
-| 1x | Fio 0,5mm              | R$4,50 |
+| 1x | Push Button Switch     | R$2,90 |
+| 2x | 2-pin Terminal Block   | R$2,20 |
+| 1x | USB-A Connector        | R$3,30 |
+| 1x | Phenolic Board         | R$7,80 |
+| 1x | AC Plug 10A            | R$5,80 |
+| 1x | Wire 0,5mm             | R$4,50 |
 | **Total** |                 | **R$88,53** |
 
- - Componentes comprados na loja [Ca And Ma](https://www.caandma.com.br/) em São Carlos/SP.
+ - Components purchased from [Ca And Ma](https://www.caandma.com.br/) in São Carlos/SP.
 
-## Funcionamento dos Componentes
- - **Fusível:** dispositivo de segurança que interrompe a passagem de corrente elétrica num circuito quando esta ultrapassa o limite permitido, de modo a proteger o circuito quando há picos de corrente.
- - **Varistor:** componente eletrônico que varia a sua resistência elétrica de acordo com a tensão aplicada aos seus terminais. Na medida em que a tensão aumenta, a resistência diminui. Os varistores são utilizados para proteger os aparelhos eletrônicos de picos de tensões.
- - **Transformador:** dispositivo que utiliza a indução eletromagnética para aumentar ou diminuir a tensão elétrica enquanto mantém a potência. Os transformadores funcionam exclusivamente com correntes alternadas. No circuito da fonte retificadora, o transformador reduz a tensão de 127V (proveniente da tomada) para 24V.
- - **Ponte de Diodo:** permite a conversão de corrente alternada (AC) em corrente contínua (DC). Ela é composta por quatro diodos retificadores conectados em uma configuração específica que permitem que a corrente flua em uma única direção.
- - **Capacitor:** é usado para armazenar carga elétrica. Na fonte reguladora, durante os ciclos da corrente alternada, libera corrente quando a tensão interna é maior do que a tensão advinda da ponte de diodo. Ele descarrega quando ocorre uma inversão de ciclo. O capacitor foi escolhido com um ripple desejado de 10%. Após os cálculos, foi-se obtido uma capacitância de 416,7uF. Assim, escolhemos o valor comercial de 470uF.
- - **Led:** diodo que converte eletricidade em luz. Nesse circuito, possui a função de indicar quando a fonte está ligada.
- - **Resistores:** componente eletrônico que regula a quantidade de eletricidade que flui por um circuito. O resistor diminui a intensidade da corrente elétrica e reduz o potencial elétrico ao longo de um fio.
- - **Diodo Zener:** componente que regula a tensão máxima. Ele irá conduzir corrente somente quando a tensão de entrada alcança a sua tensão nominal, que, no caso deste projeto, é de 12v. Caso a tensão seja menor do que 12V, não haverá corrente passando pelo diodo Zener; assim, ele não interferirá no circuito.  
- - **Potenciômetro:** componente eletrónico com resistência elétrica ajustável. Ele permitirá a escolha da tensão de saída, entre 3V e 12V.
- - **Transistor NPN:** dispositivo semicondutor que pode amplificar correntes elétricas, gerar oscilações elétricas e outros. Nesse projeto, possui a funcionalidade de permitir a passagem da corrente elétrica de forma ajustável.
- - **Chave:** uma chave elétrica pode estar num dos dois estados: fechado ou aberto. Quando a chave está fechada, a corrente elétrica passa pelo circuito; quando está aberta, a corrente elétrica não passa. Assim, podemos ativar ou desativar o funcionamento da fonte.
+## Component Functionality
+ - **Fuse:** A safety device that interrupts the flow of electrical current in a circuit when it exceeds the allowed limit, protecting the circuit against current surges.
+ - **Varistor:** An electronic component whose resistance varies according to the voltage applied to its terminals. As the voltage increases, the resistance decreases. Varistors are used to protect electronic devices from voltage spikes.
+ - **Transformer:** A device that uses electromagnetic induction to increase or decrease electrical voltage while maintaining power. Transformers work exclusively with alternating current. In the rectifier circuit, the transformer reduces the 127V (from the wall outlet) to 24V.
+ - **Diode Bridge:** Converts alternating current (AC) into direct current (DC). It consists of four rectifier diodes connected in a specific configuration that allows current to flow in only one direction.
+ - **Capacitor:** Stores electrical charge. In the regulator, during the AC cycles, it releases current when its internal voltage is greater than the voltage from the diode bridge. It discharges when the cycle inverts. The capacitor was selected for a desired ripple of 10%. After calculations, a capacitance of 416.7µF was obtained. Thus, we chose the commercial value of 470µF.
+ - **Led:** A diode that converts electricity into light. In this circuit, it indicates when the power supply is turned on.
+ - **Resistors:** Electronic components that regulate the amount of electricity flowing through a circuit. They decrease the current intensity and reduce voltage along a wire.
+ - **Zener Diode:** A component that regulates the maximum voltage. It conducts current only when the input voltage reaches its nominal voltage, in this project 12V. If the voltage is below 12V, no current passes through the Zener diode, so it does not affect the circuit.
+ - **Potentiometer:** An adjustable resistor. It allows selecting the output voltage, between 3V and 12V.
+ - **NPN Transistor:** A semiconductor device that can amplify electrical currents, generate oscillations, and more. In this project, it allows the adjustable flow of current.
+ - **Switch:** An electrical switch can be either closed or open. When closed, current flows through the circuit; when open, it does not. This enables turning the power supply on and off.
 
-## Simulação do Circuito - Falstad
- - Acesse a simulação pelo [link](https://tinyurl.com/2fm74n5c)
- - Ou, no menu `File > Import from Text` do [Falstad](https://falstad.com/circuit/circuitjs.html), acesse o arquivo `./Arquivos/circuitoFalstad.txt`
+## Circuit Simulation - Falstad
+ - Access the simulation via this [link](https://tinyurl.com/2fm74n5c)
+ - Or, in the menu `File > Import from Text` of [Falstad](https://falstad.com/circuit/circuitjs.html), open the file `./Arquivos/circuitoFalstad.txt` from the repo
 <img src="./Imagens/circuitoFalstad.png">
 
-## Esquemático do Circuito - Eagle
- - Acesse o software [Eagle](https://www.autodesk.com/products/eagle/overview)
- - No menu `File > Open > Schematic...`, acesse o arquivo `./Arquivos/esquematicoEagle.sch` do repositório
+## Circuit Schematic - Eagle
+ - Download [Eagle](https://www.autodesk.com/products/eagle/overview)
+ - In the menu `File > Open > Schematic...`, open the file `./Arquivos/esquematicoEagle.sch` from the repo
 <img src="./Imagens/esquematicoEagle.png">
 
 ## PCB - Eagle
- - Acesse o software [Eagle](https://www.autodesk.com/products/eagle/overview)
- - No menu `File > Open > Schematic...`, acesse o arquivo `./Arquivos/pcbEagle.brd` do repositório
+ - Download [Eagle](https://www.autodesk.com/products/eagle/overview)
+ - In the menu `File > Open > Schematic...`, open the file `./Arquivos/pcbEagle.brd` from the repo
 <div style="width: 100%; text-align: center;" align="center">
     <img height=300 src="./Imagens/pcbCima.png">
     <img height=300 src="./Imagens/pcbBaixo.png">
 </div>
 
-## Licença
-Esse projeto está licenciado sobre a GNU General Public License V3.0, publicada pela Free Software Foundation.
+## License
+This project is licensed under the GNU General Public License V3.0, published by the Free Software Foundation.
